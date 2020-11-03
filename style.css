@@ -1,0 +1,29 @@
+body {
+  background-color: lightgreen;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+h1, h2 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+article {
+  float: left;
+  width: 500px;
+  margin: 18px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: darkgreen;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darkgreen;
+}
