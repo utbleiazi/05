@@ -1,0 +1,41 @@
+img#sea {
+  background-color: green;
+  max-width: 100%;
+}
+
+header {
+  grid-area: header;
+  justify-self: center;
+}
+
+p {
+  color: green;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "header header""section section""aside aside""footer footer";
+  grid-gap: 10px 10px;
+}
+
+section {
+  grid-area: section;
+}
+
+img#html {}
+
+footer {}
+
+aside {
+  grid-area: aside;
+  justify-self: center;
+  align-self: center;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    grid-template-areas: "header header""section aside""footer footer";
+    grid-gap: 20px;
+  }
+}
