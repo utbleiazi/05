@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Starlight Hotel</title>
+  <link rel="stylesheet" href="grid.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img id="Top" src="img/Top.jpg" alt="Starlight Hotel pool" />
+  </header>
+  <nav class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Start</a>
+    <a href="boka.html">Boka</a>
+    <a href="hitta.html">Hitta</a>
+    <a href="kontakta.html">Kontakta</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+  <section>
+
+    <article>
+      <h1>Rubrik</h1>
+      <p>
+        Text är skriven här. Detta finns här så att jag ska se det i sidan.</p>
+
+
+      <h2>Rubrik 2</h2>
+      <p>
+        Mer text för att filla på sidan och ha en bättre struktur.
+      </p>
+    </article>
+  </section>
+  <aside>
+    <p>- Bra arbete.</p>
+
+    <p>- En steg närmare åt en färdig hemsida.</p>
+  </aside>
+  <footer>
+    <p>Starlight Hotel | Stoppgatan 3 | 54 321 Smalstad | 246 - 80 64 21</p>
+  </footer>
+
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+
+</html>
